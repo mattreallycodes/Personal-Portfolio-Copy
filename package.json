@@ -1,0 +1,43 @@
+{
+  "name": "Personal Portfolio",
+  "description": "A portfolio containing some of Matt Shaver's projects.",
+  "version": "1.0.0",
+  "author": "Matthew Shaver",
+  "dependencies": {
+    "gatsby": "^2.28.2",
+    "gatsby-plugin-crisp-chat": "^3.2.1",
+    "gatsby-plugin-manifest": "^2.2.16",
+    "gatsby-plugin-offline": "^3.0.6",
+    "gatsby-plugin-react-helmet": "^3.1.10",
+    "dart-sass":"^1.0.0",
+    "react": "^16.9.0",
+    "react-dom": "^16.9.0",
+    "react-helmet": "^5.2.1"
+  },
+  "keywords": [
+    "gatsby",
+    "Web3",
+    "Solidity",
+    "Rust",
+    "NFTS",
+    "VR"
+  ],
+  "license": "MIT",
+  "scripts": {
+    "build": "gatsby build",
+    "develop": "gatsby develop",
+    "format": "prettier --write '**/*.js'",
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "formatJSX": "prettier --write --tab-width 4 \"src/**/*.js\"",
+    "formatSCSS": "prettier --write --tab-width 4 \"src/**/*.scss\"",
+    "precommit": "lint-staged"
+  },
+  "devDependencies": {
+    "prettier": "^1.18.2",
+    "uuid": "^7.0" 
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/mattShaverWebCreator/Personal-Portfolio"
+  }
+}
