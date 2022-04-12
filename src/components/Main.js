@@ -59,9 +59,11 @@ class Main extends React.Component {
               a lifelong learner and loves innovating with technology. Matt loves to push the boundaries of what is possible when it comes to website,
               app development, coding and problem solving. His passion/long term goal is solving very complex real world problems with like-minded people from 
               many different backgrounds using digital means. Matt also values personal growth, personal freedom, challenges and 
-              putting in the teamwork that is needed for great success.
+              putting in the teamwork that is needed for great success. Matt also values STEM, diversity. Some of the real world challenges Matt is interested in contributing to solutions for are: climate change, creating hyperefficient economies, civilization advancement, AI governance, and ending poverty, 
             </p>
             <h3>Some Of The Technology That Matt Uses:</h3>
+	    <h3>Web3: Solidity, Rust, +a lot more</h3>
+	    <h3>AI,ML</h3>
             <ul>
               <li>HTML</li>
               <li>CSS</li>
