@@ -62,8 +62,8 @@ class Main extends React.Component {
               putting in the teamwork that is needed for great success. Matt also values STEM, diversity. Some of the real world challenges Matt is interested in contributing to solutions for are: climate change, creating hyperefficient economies, civilization advancement, AI governance, and ending poverty, 
             </p>
             <h3>Some Of The Technology That Matt Uses:</h3>
-	    <h3>Web3: Solidity, Rust, +a lot more</h3>
-	    <h3>AI,ML</h3>
+	    <h4>Web3: Smart Contracts, Token Engineering, Solidity, Rust, +a lot more</h4>
+	    <h4>Emerging Tech: AI/ML, Advanced Data Science applied to real world use cases</h4>
             <ul>
               <li>HTML</li>
               <li>CSS</li>
@@ -343,4 +343,5 @@ Main.propTypes = {
     timeout: PropTypes.bool,
     setWrapperRef: PropTypes.func.isRequired
 }
+
 export default Main
