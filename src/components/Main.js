@@ -56,10 +56,10 @@ class Main extends React.Component {
             <h3>Transforming What It Means To Be An Engineer</h3>
             <p>
               Matt is a polymath whose biggest strength is comboing beginner, mid - expert level skills. He is also
-              a lifelong learner and loves innovating with technology. Matt loves to push the boundaries of what is possible when it comes to website,
+              a lifelong learner and loves innovating with technology, culture and art. Matt loves to push the boundaries of what is possible when it comes to website,
               app development, coding and problem solving. His passion/long term goal is solving very complex real world problems with like-minded people from 
               many different backgrounds using digital means. Matt also values personal growth, personal freedom, challenges and 
-              putting in the teamwork that is needed for great success. Matt also values STEM, diversity. Some of the real world challenges Matt is interested in contributing to solutions for are: climate change, creating hyperefficient economies, civilization advancement, AI governance, and ending poverty, 
+              putting in the teamwork that is needed for great success. Matt also values STEM, diversity. Some of the real world challenges Matt is interested in contributing to solutions for are: climate change, creating hyperefficient economies, civilization advancement, AI governance, and ending poverty. He aspires to help create the world's first AI powered country and to also shape significant progress towards building a one for one VR simulation of the real world. 
             </p>
             <h3>Some Of The Technology That Matt Uses:</h3>
 	    <h4>Web3: Smart Contracts, Token Engineering, Solidity, Rust, +a lot more</h4>
