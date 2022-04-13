@@ -97,6 +97,11 @@ class Main extends React.Component {
               display: 'none'
           }}>
             <h2 className="major">Work</h2>
+	    <div className="image main">
+	    	<h3>Adding Web3 projects soon. Some examples: CivilianDAO - DAO, framework and dAPP around crisis management.Occuwave - NFT Marketplace.Revochain - Developer Guild for Web3. EEstate - Proptech Startup. Evolvee - Web3 game. Oversky- Originally Web2 agency, shifted to Web3. UI/UX for dApps.</h3>
+	    <h3>I will also be adding links to Patreon, Youtube and my latest Twitter account.</h3>
+	    <h3>Check back here as well for content around Solidity, Rust, AI, data science and free workshop updates.</h3> 
+	    </div>
             <div className="image main">
               <a href="https://crwn-clothing-prodapp.herokuapp.com">
                 <img src="https://res.cloudinary.com/dwe1hxicg/image/upload/c_scale,w_600/v1593372728/Portfolio/crwn-clothing-preview_lnlyg4.jpg" alt="A glimpse of Crwn Clothing App."/>
@@ -225,22 +230,16 @@ class Main extends React.Component {
             <p>
               Matt developed his first website in middle school after his favorite online games at
               the time were blocked by the school's IT Administrator. The website he created was a
-              way for himself, classmates to circumvent this block. He took his first
-              freelance assignment as a web developer while he was in highschool using HTML, CSS, Image Maps, Wordpress. 
-              He became better at HTML, CSS partially due to the popularity of the social media website Myspace and the
-              online game, social media site called Neopets.
+              way for himself, classmates to circumvent this block. Matt took his first
+              freelance assignment as a web developer while he was in highschool using HTML, CSS, Image Maps, Wordpress. Matt initially became interested in programming due to an interest in building better worlds. Matt was/is(debateable) also a complete nerd and into fanfiction, anime and writing alternate storylines to existing games as well as an avid reader of everything Fantasy and SciFi. 
             </p>
             <p>
-              Both Myspace, Neopets allowed users to create custom profiles using HTML, CSS.
-              Matt took on some freelance work building custom Myspace, Neopets layouts for other users. Matt
-              also launched his first Wordpress blog that was a news aggregate for the affairs
-              of Tiger Woods. Matt studied Internet Marketing during high school and thought
-              this would be an easy site to rank on Google due to the large number of google searches for Tiger Woods. He was right.
+              Matt was helping others with social profiles using Front End Engineering skills in highschool also. He went on to briefly study at college, he quickly left before completeing an associate's degree and then later went on to study graduate courses via MITx which he still needs to finish at some point though ultimately he wants to gain a master's  degree or similar via contributions to tech. 
             </p>
             <p>
               Since then Matt has spent a ton of time teaching himself as well as learning through experience:
               comp sci fundamentals, programming + much more. He has completed online courses through MITx, freeCodeCamp, Udemy 
-              and more.  
+              and more. Matt has thousands of hours invested in books, courses, and projects. 
             </p>
             <p>
               Matt has since went on to work as part of start-up, agency and corporate
@@ -260,7 +259,7 @@ class Main extends React.Component {
             </ul>
             <p>Not only that, Matt has helped entrepreneurs define their personal brands through their
                websites, marketing strategies.
-               Matt is currently selectively interested in new roles or projects.
+               Matt is currently selectively interested in new roles or projectsand looking for compensation of 150k+ in part time or full time capacity(ideally300k+). Matt is building early stage companies with a focus on social impact in DeFi, Gaming, Proptech, Crisis Management and raising funds for early stage companies in many different areas.  
             </p>
             <h3>INNOVATION, PASSION</h3>
             <p>
@@ -335,6 +334,7 @@ class Main extends React.Component {
       )
     }
 }
+
 Main.propTypes = {
     route: PropTypes.object,
     article: PropTypes.string,
