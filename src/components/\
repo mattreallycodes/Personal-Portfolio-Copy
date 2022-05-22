@@ -2,10 +2,10 @@ import React from 'react'
 import PropTypes from 'prop-types'
 
 import pic01 from '../images/pic01.jpg'
+import pic02 from '../images/pic02.jpg'
 import pic04 from '../images/pic04.jpg'
 import pic05 from '../images/pic05.jpg'
 import pic06 from '../images/pic06.jpg'
-import pic07 from '../images/pic07.jpg'
 
 class Main extends React.Component {
   render() {
@@ -82,8 +82,6 @@ class Main extends React.Component {
             <p>
               Matt is interested in working with companies, orgs who need help with: Trading Systems, DeFI products, Web3 business development, fundraising & Real Estate Projects. 
               Matt is looking to work with leaders in technology, finance, real estate & art.
-            </p>
-            <p>
               He can help with: Trading Systems Development, Internal Alignment, Business Development, Tech Solution Development, Presentations, Fundraising, Token Engineering, Engineering & Marketing Team Building & Strategy, Org Strategy, Advisory & much more.
             </p> 
             <p> 
@@ -102,46 +100,15 @@ class Main extends React.Component {
               style={{
               display: 'none'
           }}>
-            <h2 className="major">Works</h2>
-	        <div className="image main">
-	    	    <h3>Adding more Web3 projects soon.</h3> 
-                   <ul>
-                    Some examples:
-                    <br/> 
-                    <li>CivilianDAO - DAO, framework and dAPP around crisis management.</li>
-                    <li>Occuwave - NFT Marketplace.</li>
-                    <li>Revochain - Developer Guild for Web3.</li>
-                    <li>EEstate - Proptech Startup.</li> 
-                    <li>Evolvee - Web3 game.</li>
-                    <li>Oversky- Originally Web2 agency, shifted to Web3. UI/UX for dApps.</li>
-                   </ul>
-	            <h3>Please check back here for more social links, free educational content offerings..</h3> 
-	        </div>
+            <h2 className="major">Work</h2>
+	    <div className="image main">
+	    	<h3>Adding Web3 projects soon. Some examples: CivilianDAO - DAO, framework and dAPP around crisis management.Occuwave - NFT Marketplace.Revochain - Developer Guild for Web3. EEstate - Proptech Startup. Evolvee - Web3 game. Oversky- Originally Web2 agency, shifted to Web3. UI/UX for dApps.</h3>
+	    <h3>I will also be adding links to Patreon, Youtube and my latest Twitter account.</h3>
+	    <h3>Check back here as well for content around Solidity, Rust, AI, data science and free workshop updates.</h3> 
+	    </div>
             <div className="image main">
-              <a href="https://www.canva.com/design/DAFBROd3hLU/inD6Qey6rBXXmNR0sHaC2Q/view?utm_content=DAFBROd3hLU&utm_campaign=designshare&utm_medium=link2&utm_source=sharebutton">
-                <img src={pic07}  alt="Tradechain logo."/>
-              </a>
-            </div>
-            <div> 
-                <h3>Tradechain</h3>
-                <p>
-                  A Secuima product, custom blockchain for DeFi, Quant developers designed with latency in mind.
-                  <br/><br/>
-                  This custom blockchain supports Solidity contracts. aims for the fastest tx speed & best in class interoperability.  
-                  <br/><br/> 
-                </p>
-                <a href="https://www.canva.com/design/DAFBROd3hLU/inD6Qey6rBXXmNR0sHaC2Q/view?utm_content=DAFBROd3hLU&utm_campaign=designshare&utm_medium=link2&utm_source=sharebutton">
-                  <h3>View Presentation</h3>
-                </a>
-                <a href="https://github.com/mattreallycodes/trade-chain">
-                  <h3>View Code</h3>
-                </a>
-            </div>
-            {close}
-        </article>
-         {/*  <div className="image main">
-              <a href="https://carolinas.aaa.com/membership/">
-                  <img src={pic02} alt="A glimpse of AAA site."/>
+              <a href="https://crwn-clothing-prodapp.herokuapp.com">
+                <img src="https://res.cloudinary.com/dwe1hxicg/image/upload/c_scale,w_600/v1593372728/Portfolio/crwn-clothing-preview_lnlyg4.jpg" alt="A glimpse of Crwn Clothing App."/>
               </a>
             </div>
             <h3>CRWN CLOTHING APP</h3>
@@ -151,6 +118,42 @@ class Main extends React.Component {
               <br/><br/>
               This fully responsive app's features include a Test Stripe integration, Google Auth Sign In,
               Email/Password Sign In, Shopping Cart, Data Fetching/Storing with Firebase + More.
+              <br/><br/>
+              The app is located in a Github Repo with a master, relese, development branch. 
+              <br/><br/>
+              The release, development branches are automatically deployed to seperate Heroku instances when new commits are pushed to release, development. 
+            </p>
+            <a href="https://crwn-clothing-prodapp.herokuapp.com/">
+              <h3>Visit Crwn Clothing App</h3>
+            </a>
+            <a href="https://github.com/mattShaverWebCreator/crwn-clothing">
+              <h3>Visit Crwn Clothing App on Github</h3>
+            </a>
+            <div className="image main">
+              <a href="https://carolinas.aaa.com/membership/">
+                  <img src={pic02} alt="A glimpse of AAA site."/>
+              </a>
+            </div>
+            <h3>AAA</h3>
+            <p>
+              AAA is a privately held non-profit national member association and service
+              organization with over 58 million members in the United States and Canada. 
+              <br/><br/>
+              Matt worked in AAA Carolina's Marketing Department as a Front End Engineer for roughly 11 months. 
+              <br/><br/>
+              Matt, another engineer were in charge of creating, testing, updating Wordpress Pages, Landing Pages,
+              Wordpress Themes, Wordpress Plug-ins(ACF, Yoast SEO, CPT UI + More) using HTML, CSS, PHP, JS, jQuery, Flexbox, Bootstrap 4, 
+              Polyfills, Adobe XD, Photoshop. 
+              <br/><br/>
+              Matt utilized Javascript, Git, Typescript, jQuery, ReactJS, CSS Grid, GraphQL, Apollo and more while working on AAA Carolinas
+              marketing projects. 
+              <br/><br/>
+              Slack was the primary communications tool that Matt used when communicating with other team members.
+              Wrike was the project management solution that Matt and the rest of the team used. 
+            </p>
+            <a href="https://carolinas.aaa.com/membership/">
+              <h3>Visit AAA</h3>
+            </a>
             <div className="image main">
               <a href="https://camelcitygoods.com">
                 <img src={pic04} alt="A glimpse of Camel City Goods site."/>
@@ -198,8 +201,10 @@ class Main extends React.Component {
             </p>
             <a href="https://razzafrazza.github.io/AIA/">
               <h3>Visit AIA</h3>
-            </a> */}
-        {/*  <article
+            </a>
+            {close}
+          </article>
+          <article
             id="about"
             className={`${this.props.article === 'about'
             ? 'active'
@@ -209,7 +214,7 @@ class Main extends React.Component {
             style={{
             display: 'none'
           }}>
-         <h2 className="major">About</h2>
+            <h2 className="major">About</h2>
             <span
               className="image main"
               style={{
@@ -219,13 +224,6 @@ class Main extends React.Component {
                 style={{
                   display: 'inline-block',
                   width: '53%',
-                  padding: '8px',
-                  borderRadius: '100%'
-                }}
-                src={pic01}
-                alt="Portrait Shot of Matt."/>
-            </span>
-            <h3>THE BEGINNING</h3>
                   padding: '8px',
                   borderRadius: '100%'
                 }}
@@ -278,10 +276,10 @@ class Main extends React.Component {
             <p>
               Matt stays on top of the latest trends in Engineering, Development, Design #reactamsterdam
               Matt is someone you can count on to put in the hard work required for success.
-            </p> 
-        </div> 
-           */}
-                <article
+            </p>
+            {close}
+          </article>
+          <article
             id="contact"
             className={`${this.props.article === 'contact'
             ? 'active'
@@ -292,8 +290,8 @@ class Main extends React.Component {
             display: 'none'
           }}>
             <h2 className="major">Contact</h2>
-            <form id="contact" name="contact" method="POST" data-netlify="true"  data-netlify-honeypot="bot-field">
-              <input type="hidden" name="form-name" value="contact"/>
+            <form id="contact" name="contact" method="post" netlify data-netlify="true" data-netlify-honeypot="bot-field">
+              <input type="hidden" name="contact" value="contact"/>
               <div className="field half first">
                 <label htmlFor="name">Name</label>
                 <input type="text" name="name" id="name"/>
@@ -308,7 +306,7 @@ class Main extends React.Component {
               </div>
               <ul className="actions">
                 <li>
-                  <button type="submit" value="Send Message" className="special">Send Message</button>
+                  <button type="submit">Send Message</button>
                 </li>
                 <li>
                   <input type="reset" name="reset" value="Reset"/>
@@ -322,7 +320,14 @@ class Main extends React.Component {
                 </a>
               </li>
               <li>
-                <a href="https://github.com/mattreallycodes" className="icon fa-github">
+                <a
+                  href="https://instagram.com/mattshaver.webcreator"
+                  className="icon fa-instagram">
+                  <span className="label">Instagram</span>
+                </a>
+              </li>
+              <li>
+                <a href="https://github.com/mattShaverWebCreator" className="icon fa-github">
                   <span className="label">GitHub</span>
                 </a>
               </li>
@@ -343,4 +348,4 @@ Main.propTypes = {
     setWrapperRef: PropTypes.func.isRequired
 }
 
-export default Main 
+export default Main

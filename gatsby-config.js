@@ -19,16 +19,7 @@ module.exports = {
         display: 'minimal-ui',
         icon: 'src/images/theBestFavicon.png', // This path is relative to the root of the site.
       },
-    },
-    {
-      resolve: 'gatsby-plugin-crisp-chat',
-      options: {
-        websiteId: '1970d31a-f3ed-4127-b8af-ffd26c2e82c9',
-        enableDuringDevelop: true, // Optional. Disables Crisp Chat during gatsby develop. Defaults to true.
-        defer: true, // Optional. Sets the Crisp loading script to defer instead of async. Defaults to false.
-        enableImprovedAccessibility: false // Optional. Sets aria-label attribute on pop-up icon for screen readers. Defaults to true.
-      },
-    },
+    }, 
     'gatsby-plugin-sass',	  
     'gatsby-plugin-offline'
   ],

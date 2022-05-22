@@ -43,7 +43,7 @@ const Layout = ({ children, location }) => {
             title={data.site.siteMetadata.title}
             meta={[
               { name: 'description', content: data.site.siteMetadata.description },
-              { property: 'og:url', content: 'https://mattshaverwebcreator.com'},
+              { property: 'og:url', content: 'https://personalportfoliocopymaster.gatsbyjs.io/'},
               { property: 'og:type', content: 'website'},
               { property: 'og:title', content: "Matt Shaver's Portfolio"},
               { property: 'og:description', content: data.site.siteMetadata.description },
